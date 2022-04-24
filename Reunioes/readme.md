@@ -80,9 +80,9 @@ oferecida no primeiro semestre de 2022, na Unicamp, sob supervisão da Profa. Dr
 >
 > * **Music Information Retrieval:** através das análises espectrais existentes na Biblioteca Librosa, fazer o comparativo entre as *features* espectrais do áudio real e do áudio sintetizado. Serão analisadas as seguintes *features* espectrais: 
 > 
-> a) STFT:  a transformada de Fourier de tempo curto é uma transformada integral derivada da transformada de Fourier, sendo uma forma de representação tempo-frequência;
-> 
-> b) Espectrograma: pode ser definido como um gráfico que mostra a intensidade por meio do escurecimento ou coloração do traçado, as faixas de frequência no eixo vertical e o tempo no eixo horizontal. Sua representação mostra estrias horizontais, denominadas harmônicos;
+>> a) STFT:  a transformada de Fourier de tempo curto é uma transformada integral derivada da transformada de Fourier, sendo uma forma de representação tempo-frequência;
+>> 
+>> b) Espectrograma: pode ser definido como um gráfico que mostra a intensidade por meio do escurecimento ou coloração do traçado, as faixas de frequência no eixo vertical e o tempo no eixo horizontal. Sua representação mostra estrias horizontais, denominadas harmônicos;
 > 
 > c) Mel espectrograma: é um espectrograma onde as frequências são convertidas para a escala mel, isto é, uma escala onde a unidade de altura é tal que distâncias iguais em altura soam igualmente distantes para o ouvinte;
 > 
