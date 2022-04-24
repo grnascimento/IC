@@ -71,19 +71,19 @@ oferecida no primeiro semestre de 2022, na Unicamp, sob supervisão da Profa. Dr
 ### Proposta de avaliação:
 
 > Nossa proposta para a avaliação comparativa entre os dados reais e sintezados contará com três abordagens: quantitativa, qualitativa e MIR, desta forma, teremos:
-
+>
 > * **Análise Quantitativa:** considerando-se que a entrada e a saída do áudio serão dados do tipo *numpy array*, através da ferramenta Table Evaluate, será analisado o KS Teste, a fim de determinar a distância entre o que foi gerado e o real resultando no *score* entre eles;
-
+>
 > * **Análise Qualitativa:** gráfico log-log da média dos dados reais x média dos dados sintetizados (para verificar tendência de 45º); do gráfico log-log do desvio-padrão dos dados reais x desvio-padrão dos dados sintetizados (para verificar tendência de 45°); gráfico da soma cumulativa dos dados reais e sintetizados (para verificar diferença de distribuição), histograma dos dados reais e sintetizados (para verificar diferença de distribuição);
-
+>
 > * **Music Information Retrieval:** através das análises espectrais existentes na Biblioteca Librosa, fazer o comparativo entre as *features* espectrais do áudio real e do áudio sintetizado. Serão analisadas as seguintes *features* espectrais: STFT, espectrograma, mel espectrograma, cromagrama, MFCC, RMS, espectral *bandwith*, espectral *rolloff*, espectral *flatness* e *zero-crossing rate*.
-
+>
 > Ainda seria possível a análise subjetiva através de pesquisa entre os alunos da disciplina, contudo, considerando o conjunto universo de alunos, não haveria um acréscimo significativo na estatística comparativa entre os dados reais e sintetizados.
 
 
 ## Cronograma
 > Proposta de cronograma:
- 
+>
 > |Atividade  | Descrição | Tempo estimado|
 > |--|--|--|
 > | Entendimento do Problema | Análise do problema e busca de artigos para encontrarmos uma boa metodologia a para a síntese de timbre instrumental  | 16/03 a 06/04 (3 semanas)|
