@@ -47,7 +47,9 @@ oferecida no primeiro semestre de 2022, na Unicamp, sob supervisão da Profa. Dr
 ### Artigos de Referência:
 
 > Em [1] temos a apresentação da GANSynth e sua arquitetura, de forma que representa a principal referência para este projeto;
+> 
 > Em [2] temos a apresentação da abordagem da síntese de imagens que inspirou o artigo da GANSynth, de forma que ela apresenta maiores detalhes com relação ao processo de síntese da GAN;
+> 
 > Em [3] temos as definições de *Music Information Retrieval* (MIR) e, consequentemente, das *features* a serem observadas para a comparação entre os dados reais e os dados sintetizados;  
 
 ### Ferramentas a serem utilizadas:
