@@ -78,7 +78,27 @@ oferecida no primeiro semestre de 2022, na Unicamp, sob supervisão da Profa. Dr
 >
 > * **Análise Qualitativa:** gráfico log-log da média dos dados reais x média dos dados sintetizados (para verificar tendência de 45º); do gráfico log-log do desvio-padrão dos dados reais x desvio-padrão dos dados sintetizados (para verificar tendência de 45°); gráfico da soma cumulativa dos dados reais e sintetizados (para verificar diferença de distribuição), histograma dos dados reais e sintetizados (para verificar diferença de distribuição);
 >
-> * **Music Information Retrieval:** através das análises espectrais existentes na Biblioteca Librosa, fazer o comparativo entre as *features* espectrais do áudio real e do áudio sintetizado. Serão analisadas as seguintes *features* espectrais: STFT, espectrograma, mel espectrograma, cromagrama, MFCC, RMS, espectral *bandwith*, espectral *rolloff*, espectral *flatness* e *zero-crossing rate*.
+> * **Music Information Retrieval:** através das análises espectrais existentes na Biblioteca Librosa, fazer o comparativo entre as *features* espectrais do áudio real e do áudio sintetizado. Serão analisadas as seguintes *features* espectrais: 
+> 
+> a) STFT:  a transformada de Fourier de tempo curto é uma transformada integral derivada da transformada de Fourier, sendo uma forma de representação tempo-frequência;
+> 
+> b) Espectrograma: pode ser definido como um gráfico que mostra a intensidade por meio do escurecimento ou coloração do traçado, as faixas de frequência no eixo vertical e o tempo no eixo horizontal. Sua representação mostra estrias horizontais, denominadas harmônicos;
+> 
+> c) Mel espectrograma: é um espectrograma onde as frequências são convertidas para a escala mel, isto é, uma escala onde a unidade de altura é tal que distâncias iguais em altura soam igualmente distantes para o ouvinte;
+> 
+> d) Cromagrama: é o gráfico do vetor de características tipicamente de 12 elementos que indica quanta energia de cada classe de altura, {C, C#, D, D#, E, ..., B}, é presente no sinal;
+> 
+> e) MFCC: Os coeficientes cepstral de frequência Mel (MFCCs) são coeficientes que coletivamente compõem uma representação do espectro de potência de curto prazo de um som, com base em uma transformação de cosseno linear de um espectro de potência de log em uma escala de frequência mel não linear;
+> 
+> f) RMS: potência real (Root Mean Squared) do sinal;
+> 
+> g) Espectral *bandwith*: é a diferença entre as frequências superior e inferior em uma banda contínua de frequências;
+> 
+> h) Espectral *rolloff*: Pode ser definido como a ação de um tipo específico de filtro que é projetado para reduzir as frequências fora de uma faixa específica, de forma que o ponto de rolagem espectral é a fração de compartimentos no espectro de potência em que 85% da potência está em frequências mais baixas;
+> 
+> i) Espectral *flatness*: é uma medida usada no processamento de sinal digital para caracterizar um espectro de áudio e é normalmente medida em decibéis, fornecendo uma maneira de quantificar o quanto um som se assemelha a um tom puro, em vez de ser semelhante a ruído; 
+> 
+> j) *Zero-crossing rate*: é a medida da taxa na qual o sinal está passando pela linha zero, mais formalmente, o sinal está mudando de positivo para negativo ou vice-versa.
 >
 > Ainda seria possível a análise subjetiva através de pesquisa entre os alunos da disciplina, contudo, considerando o conjunto universo de alunos, não haveria um acréscimo significativo na estatística comparativa entre os dados reais e sintetizados.
 
@@ -107,4 +127,4 @@ Roberts, A.;**” Gansynth: Adversarial Neural Audio Synthesis”**; ICLR; 2019;
 >
 > [2] Karras, T.; Laine, S.; Aila, T.; **”A style-based generator architecture for generative adversarial networks”**; CoRR; abs/1812.04948; 2018b;
 > 
->  [3] Muller, M.; **”Information Retrieval for Music and Motion”**;  1ª Edição;  Editora Springer;  2010.
+> [3] Muller, M.; **”Information Retrieval for Music and Motion”**;  1ª Edição;  Editora Springer;  2010.
